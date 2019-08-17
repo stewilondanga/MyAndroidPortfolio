@@ -12,5 +12,8 @@ public class MainActivity extends Activity{
 
     private Button button;
 
+    public void onCreate(Bundle savedInstanceState){
+        final COntext context = this;
 
+    }
 }
