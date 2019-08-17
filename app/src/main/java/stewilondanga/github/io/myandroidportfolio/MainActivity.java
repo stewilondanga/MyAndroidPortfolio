@@ -18,6 +18,6 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        button = (Button) findViewById(R.id.buttonUrl);
     }
 }
