@@ -19,5 +19,9 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
 
         button = (Button) findViewById(R.id.buttonUrl);
+
+        button.setOnClickListener(new OnClickListener()){
+
+        }
     }
 }
