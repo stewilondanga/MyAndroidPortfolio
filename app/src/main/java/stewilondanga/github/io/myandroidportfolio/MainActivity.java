@@ -13,7 +13,11 @@ public class MainActivity extends Activity{
     private Button button;
 
     public void onCreate(Bundle savedInstanceState){
-        final COntext context = this;
+        final Context context = this;
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
 
     }
 }
